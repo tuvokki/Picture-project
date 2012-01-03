@@ -7,16 +7,16 @@ Installation
 ============
 Preamble
 --------
-### checkout the repository from git in a directory of your liking.
-### Make sure your webserver supports python and is capable of serving an index.py.
+checkout the repository from git in a directory of your liking.
+Make sure your webserver supports python and is capable of serving an index.py.
 
 Install images
 --------------
-### Create or copy a directory with images into {BASEDIR}/images/[your_dir]
-### run the prepareImages.py from {BASEDIR} to create the folder structure
-# {BASEDIR}/images/[your_dir]/full   --> contains the images in full
-# {BASEDIR}/images/[your_dir]/low    --> contains showable images
-# {BASEDIR}/images/[your_dir]/thumbs --> contains the thumbnails
+* Create or copy a directory with images into {BASEDIR}/images/[your_dir]
+* run the prepareImages.py from {BASEDIR} to create the folder structure
+### {BASEDIR}/images/[your_dir]/full   --> contains the images in full
+### {BASEDIR}/images/[your_dir]/low    --> contains showable images
+### {BASEDIR}/images/[your_dir]/thumbs --> contains the thumbnails
 
 Personalize
 -----------
