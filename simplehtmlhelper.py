@@ -1,4 +1,6 @@
-
+title = "Test desktop show"
+slogan = "Some nice slides"
+slug = "a. photo"
 def printli (dir, filename):
   print """
   <li><!--printli -->
@@ -24,7 +26,7 @@ def header ():
   <html>
   	<head>
   		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  		<title>Some nice desktop-ready pictures of Suze.</title>
+  		<title>%(title)s</title>
   		<link rel="stylesheet" href="css/basic.css" type="text/css" />
   		<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
   		<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
@@ -38,8 +40,8 @@ def header ():
   	<body>
   		<div id="page">
   			<div id="container">
-  				<h1><a href="/">Test desktops</a></h1>
-          <h2>a photo.</h2>
+  				<h1><a href="/">%(slogan)s</a></h1>
+          <h2>%(slug)s</h2>
 
   				<!-- Start Advanced Gallery Html Containers -->
   				<div id="gallery" class="content">
@@ -52,7 +54,7 @@ def header ():
   				</div>
   				<div id="thumbs" class="navigation">
   					<ul class="thumbs noscript">
-	"""
+	""" % {'title' : title, 'slogan' : slogan, "slug" : slug}
 
 def footer ():
 	print """
@@ -62,7 +64,7 @@ def footer ():
   				<div style="clear: both;"></div>
   			</div>
   		</div>
-  		<div id="footer">&copy; 2009 Trent Foley</div>
+  		<div id="footer">Design &copy; 2009 Trent Foley</div>
   		<script type="text/javascript">
   			jQuery(document).ready(function($) {
   				// We only want these styles applied when javascript is enabled
