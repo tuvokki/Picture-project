@@ -3,6 +3,10 @@ Purpose
 This application is made with large images in mind. It will transform your desktop-size images to reasonable web-sized thumbnails and showable pictures.
 It then renders them and creates a download link for the real large image.
 
+Version
+-------
+This version is tagged 1.0 since it is the production version. No history yet.
+
 Installation
 ============
 Preamble
