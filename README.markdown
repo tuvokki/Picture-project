@@ -15,9 +15,9 @@ Install images
 * Create or copy a directory with images into {BASEDIR}/images/[your_dir]
 * run the prepareImages.py from {BASEDIR} to create the folder structure
 
-{BASEDIR}/images/[your_dir]/full   --> contains the images in full
-{BASEDIR}/images/[your_dir]/low    --> contains showable images
-{BASEDIR}/images/[your_dir]/thumbs --> contains the thumbnails
+1. {BASEDIR}/images/[your_dir]/full   --> contains the images in full
+2. {BASEDIR}/images/[your_dir]/low    --> contains showable images
+3. {BASEDIR}/images/[your_dir]/thumbs --> contains the thumbnails
 
 Personalize
 -----------
